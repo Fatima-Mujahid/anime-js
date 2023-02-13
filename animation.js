@@ -1,5 +1,3 @@
-import anime from "animejs";
-
 const squares = document.getElementsByClassName("square");
 const allElements = document.querySelectorAll("div");
 
