@@ -3,5 +3,11 @@
     height: 100px;
     position: relative;
     left: 0;
-    background-color: blue;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50;
 }
