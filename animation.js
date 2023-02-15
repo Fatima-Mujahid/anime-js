@@ -7,6 +7,13 @@ const squareDistance = {
 };
 
 // anime({
+//   targets: ".square",
+//   // left: ["10px", "50%"],
+//   translateX: "+=300",
+//   translateY: anime.random(0, 300),
+// });
+
+// anime({
 //   targets: squareDistance,
 //   distance: 300,
 //   progress: "100%",
@@ -22,13 +29,13 @@ const squareDistance = {
 //   left: 300,
 // });
 
-anime({
-  targets: "input",
-  value: [0, 5, 0],
-  round: 1,
-  easing: "linear",
-  duration: 3000,
-});
+// anime({
+//   targets: "input",
+//   value: [0, 5, 0],
+//   round: 10,
+//   easing: "linear",
+//   duration: 3000,
+// });
 
 // export function animation(element) {
 //     anime({
@@ -75,3 +82,53 @@ anime({
 //   targets: ".circle",
 //   borderRadius: 0,
 // });
+
+// anime({
+//   targets: '.blue',
+//   left: 300,
+//   duration: 1000,
+//   endDelay: 500,
+//   easing: "linear",
+//   loop: 3,
+//   direction: "alternate",
+// });
+
+// anime({
+//   targets: '.red',
+//   left: 300,
+//   duration: 1000,
+//   endDelay: 1000,
+//   easing: "linear",
+//   loop: 3,
+//   direction: "reverse",
+// });
+
+// anime({
+//   targets: '.yellow',
+//   left: 300,
+//   duration: 1000,
+//   endDelay: 1000,
+//   easing: "linear",
+//   loop: 3,
+//   direction: "normal",
+// });
+
+anime({
+  targets: '.blue',
+  easing: 'linear',
+  direction: 'alternate',
+  loop: true,
+  left: {
+    value: 300,
+    duration: 1000,
+  },
+  opacity: {
+    value: 0.5,
+    duration: 500,
+  },
+  rotate: {
+    value: 360,
+    delay: 1000,
+    duration: 1000,
+  }
+})
