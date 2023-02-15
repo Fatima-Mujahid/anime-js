@@ -1,13 +1,19 @@
 .square {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
 }
 
-.circle{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
+.circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+}
+
+#stats {
+  position: relative;
+  margin-top: 10px;
+  left: 300px;
 }
